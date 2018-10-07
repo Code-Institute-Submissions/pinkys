@@ -1,2 +1,2 @@
-# pinkys
-private catering site
+# PINKY's
+Indian style catering website
