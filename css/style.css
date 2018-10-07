@@ -50,9 +50,9 @@ p {
   padding: 30px 25px;
 }
 
-.menu-container {
+/*.menu-container {
   display: flex;
-}
+}*/
 
 .menu-container .box {
   /*border: 1px #000 solid;*/
@@ -178,7 +178,9 @@ p {
 }
 
 @media(min-width: 768px){
-  
+  .menu-container {
+    display: flex;
+  }
 }
 
 
