@@ -185,9 +185,9 @@ p {
 
 
 @media(max-width: 568px){
-  /*.pimg1, .pimg2, .pimg3 {
+  .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
-  }*/
+  }
 
   .ptext{
       position: absolute;
@@ -201,7 +201,7 @@ p {
   }
 
   .ptext .border {
-      background-color: #111;
+      background-color: #76808A;
       color: #fff;
       padding: 20px;
       border-radius: 18px;
