@@ -45,7 +45,7 @@ p {
 .navbar-brand:focus, 
 .navbar-default 
 .navbar-brand:hover {
-  color: #777;
+  color: #FB5EFF;
   background-color: transparent;
   transition: 0.5s ease;
 }
@@ -155,7 +155,7 @@ p {
   width: 100%;
   text-align: center;
   color: #000;
-  font-size: 8px;
+  font-size: 18px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
@@ -239,7 +239,7 @@ p {
     margin-left: 0;
   }
 }
-@media(min-width: 768px) {
+@media(max-width: 768px) {
   
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
@@ -251,7 +251,7 @@ p {
       width: 100%;
       text-align: center;
       color: #000;
-      font-size: 20px;
+      font-size: 18px;
       letter-spacing: 8px;
       text-transform: uppercase;
   }
@@ -262,6 +262,27 @@ p {
       padding: 20px;
       border-radius: 18px;
   }
+}
+
+@media(max-width: 568px){
+  .ptext {
+    font-size: 12px;
+  }
+
+}
+
+@media(max-width: 438px){
+  .ptext {
+    font-size: 8px;
+  }
+
+}
+
+@media(max-width: 378px){
+  .ptext {
+    font-size: 5px;
+  }
+
 }
 
 @media (min-width: 500px){
