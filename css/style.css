@@ -155,7 +155,7 @@ p {
   width: 100%;
   text-align: center;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
@@ -280,7 +280,7 @@ p {
 
 @media(max-width: 378px){
   .ptext {
-    font-size: 5px;
+    font-size: 8px;
   }
 
 }
@@ -298,3 +298,5 @@ p {
   }
 
 }
+
+
