@@ -239,7 +239,7 @@ p {
     margin-left: 0;
   }
 }
-@media(min-width: 768px) {
+@media(max-width: 768px) {
   
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
