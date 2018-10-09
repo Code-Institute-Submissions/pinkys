@@ -251,7 +251,7 @@ p {
       width: 100%;
       text-align: center;
       color: #000;
-      font-size: 10px;
+      font-size: 20px;
       letter-spacing: 8px;
       text-transform: uppercase;
   }
@@ -262,6 +262,20 @@ p {
       padding: 20px;
       border-radius: 18px;
   }
+}
+
+@media (min-width: 500px){
+  .ptext {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+      font-size: 10px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+  }
+
 }
 
 @media (min-width: 500px){
@@ -277,3 +291,5 @@ p {
   }
 
 }
+
+
