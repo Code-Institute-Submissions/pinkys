@@ -180,8 +180,9 @@ p {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
-  font-size: 20px;
+  color: #fafafa;
+  font-size: 32px;
+  font-weight: 900;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
@@ -223,13 +224,13 @@ p {
   color: #fff;
 }
 
-.ptext .border {
+/*.ptext .border {
   background-color: #76808A;
   font-weight: 600;
   color: #fff;
   padding: 20px;
   border-radius: 18px;
-}
+}*/
 
 .ptext-bottom .border {
   background-color: #76808A;
