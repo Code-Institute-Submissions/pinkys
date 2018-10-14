@@ -13,9 +13,12 @@ body, html {
 
 h2 {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
+  font-size: 1.2em;
   margin: 0;
   padding: 0;
 }
@@ -70,7 +73,7 @@ p {
 
 /*-------------------------------------- PARALLAX */
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -99,20 +102,27 @@ p {
   min-height: 400px;
 }
 
+.pimg4 {
+  background-image: url('../images/ingredients.jpeg');
+  min-height: 400px;
+}
+
+.pimg5 {
+  background-image: url('../images/masala.jpeg');
+  min-height: 400px;
+}
+
 .row{
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
 }
 
-#contact-img {
-  background-image: url('../images/ingredients.jpeg');
-  min-height: 600px;
-  background-size: cover;
-  background-attachment: scroll;
+#about{
+  text-align: center;
 }
 
-/*--------------------------------- MENU CONTAINER */
+/*--------------------------------- SERVICES CONTAINER */
 
 .section {
   text-align: justify;
@@ -131,6 +141,7 @@ p {
 #r-more {
   text-align: right;
   text-decoration: none;
+  padding-top: 25px;
 }
 
 /*----------------------------- SOCIAL NETWORKING  */
@@ -157,8 +168,6 @@ p {
   color: #282e34;
   transition: 0.5s ease;
 }
-
-/*------------------------------- OFFERS CONTAINER */
 
 .box h3{
   text-align: center;
@@ -244,6 +253,22 @@ p {
   background-color: rgba(0,0,0,0.3);
 }
 
+.btn {
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #76808A;
+  transition: 0.5s ease;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #282e34;
+}
+
 /*-------------------------------------- FOOTER */
 
 .main-footer {
@@ -273,7 +298,7 @@ p {
 }
 @media(max-width: 768px) {
   
-  .pimg1, .pimg2, .pimg3 {
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
       background-attachment: scroll;
   }
 
@@ -288,12 +313,12 @@ p {
       text-transform: uppercase;
   }
 
-  .ptext .border {
+  /*.ptext {
       background-color: #76808A;
       color: #fff;
       padding: 20px;
       border-radius: 18px;
-  }
+  }*/
 }
 
 @media(max-width: 568px){
