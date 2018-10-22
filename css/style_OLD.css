@@ -1,0 +1,516 @@
+
+/*-------------------------------------- GLOBALS */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "KoHo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/*-------------------------------------- NAVBAR */
+.navbar {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.navbar-default {
+  background-color: #666;
+}
+
+.container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-family: "Srisakdi", sans-serif;
+  font-size: 2em;
+  font-weight: 400px;
+  padding: 12px 15px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  transition: 1s ease-out;
+}
+
+.navbar-default 
+.navbar-brand:focus, 
+.navbar-default 
+.navbar-brand:hover {
+  color: #E517C9;
+  background-color: transparent;
+  transition: 0.5s ease;
+}
+
+.navbar-default
+.navbar-nav>li>a {
+  color: #fff;
+  background-color: transparent;
+  transition: 1s ease-out;
+}
+
+.navbar-default 
+.navbar-nav>li>a:hover {
+  color: #282e34;
+  transition: 0.5s ease;
+}
+
+/*-------------------------------------- BRAND TITLE */
+.ptext-brand {
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #E517C9;
+    font-size: 120px;
+    font-family: "Srisakdi", sans-serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+}
+
+.ptext {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+.callout {
+    display: flex;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 17px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 16px;
+    border: 0.5px sold #fff
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#cOstrap {
+  padding: 0 35px;
+}
+
+/*-------------------------------------- SERVICES */
+.section-dark{
+  background-color: #282e34;
+  padding: 5px 15%;
+  /*border-bottom: 1px #666 solid;*/
+}
+
+.section {
+  padding-bottom: 16px;
+}
+
+.section-last {
+  padding-bottom: 32px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:3em;
+}
+
+.wrapper > div{
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper>div>h1 {
+  padding-bottom: 10px;
+}
+
+.box {
+  padding: 25px;
+}
+
+.box1>p, .box2>p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.thumb-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.wrapper-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap:3em;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-2>div {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-2>div>p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.box3>h2 {
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+img { 
+  max-width: 100%; 
+  height: auto; 
+}
+
+.wrapper-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:3em;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-3>div {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-3>div>p {
+  font-size: 20px;
+  text-align: right;
+  color: #fff;
+}
+
+.box4>h2 {
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+img { 
+  max-width: 100%; height: auto; 
+}
+
+/*-------------------------------------- ABOUT US */
+.section-about {
+  padding: 60px 60px;
+}
+
+.wrapper-about {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 3em;
+}
+
+.box2-about-content>h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.box1-about-img {
+  grid-column: 1/5;
+}
+
+.box2-about-content {
+  font-size: 18px;
+  grid-column: 1/3;
+}
+
+.box2-about-content>p {
+  color: #fff;
+}
+
+.values>h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.values>ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*------------------------- CONTACT US */
+.section-form {
+  background-color: #282e34;
+}
+
+.section-form>div>h3 {
+  margin: 0;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 24px
+}
+
+.form-horizontal {
+  padding: 30px;
+}
+
+div>.btn-success {
+  background-color: #E517C9;
+  border: none;
+}
+
+div>.btn-success:hover {
+  background-color: #ad1599;
+}
+/*------------------------- CALL TO ACTION BUTTONS */
+
+.btn {
+  background-color: #E517C9;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.btn-default {
+  border: none;
+  background-color: rgb(255, 251, 0);
+  color: #333;
+  border-radius: 16px;
+  font-size: 24px;
+}
+
+.btn-default:hover {
+  background-color: #d3d020;
+  color: #333;
+}
+
+/*-------------------------------------- IMAGES */
+
+.pimg1 {
+  background-image: url('../images/food1.jpeg');
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 65%;
+}
+
+.contact-img {
+  padding: 30px;
+}
+
+/*-------------------------------------- FOOTER */
+
+.main-footer {
+  background-color: #666;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.wrapper-f {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-f>div>p {
+  margin: 0;
+  padding: 0;
+}
+
+.box-f{
+  text-align: center;
+  font-size: 16px;
+  border-right: 1px #282e34 dashed;
+  padding-top: 27px;
+}
+
+.box-f2 {
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  border-right: 1px #282e34 dashed;
+  padding: 18px;
+}
+.box-f3 {
+  text-align: center;
+  font-size: 16px;
+  padding: 27px;
+}
+
+.fab {
+  letter-spacing: 15px;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+  font-size: 25px;
+}
+
+/*------------------------------- MEDIA QUERIES */
+
+@media only screen and (max-width: 768px){
+  .pimg1{
+    background-attachment: scroll;
+  }
+
+  .ptext-brand {
+    position: absolute;
+    top: 12%;
+    min-width: 100%;
+    text-align: center;
+    color: #E517C9;
+    font-size: 20vw;
+    font-family: "Srisakdi", sans-serif;
+    font-weight: 900;
+  }
+
+  .ptext {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .callout {
+    display: none;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .btn-default{
+    display: none;
+  }
+
+  .section-dark {
+    padding: 0;
+  }
+
+  .wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+  }
+  .wrapper-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+  }
+
+  .wrapper-2>div {
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+}
+
+  .wrapper-2> div>h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .wrapper-2>div>p {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 35px
+  }
+
+  .wrapper-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper-3>div {
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+}
+
+.wrapper-3> div>h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+  .wrapper-3>div>p {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .wrapper-f {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  hr {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+}
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .ptext-brand{
+    padding-top: 85px;
+  }
+
+  .ptext {
+    padding-top: 100px;
+  }
+
+}
