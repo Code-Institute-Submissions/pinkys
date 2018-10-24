@@ -232,6 +232,35 @@ p {
     color: #E517C9;
 }
 
+/*-------------------------------------------  CONTACT */
+
+.contact-heading {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    letter-spacing: 3px;
+}
+
+.contact-heading>h3 {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.form-group {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: 0 25px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #E517C9;
+}
+
+.sub {
+    margin-bottom: 14px;
+    margin-top: 0;
+}
 
 /*--------------------------------------------- FOOTER */
 
@@ -353,13 +382,13 @@ to style default link
 
     .bg-color {
         width: 100%;
-        height: auto;
+        height: 100%;
         padding: 15px 12px;
     }
 
     .bw-img {
         width: 100%;
-        height: auto;
+        max-height: 100%;
     }
 
     .txt {
