@@ -192,25 +192,48 @@ p {
     padding: 2em;
 }
 
-/*-------------------------------- SECTION D / BOXES */
-
-#section-d .box {
-    padding: 2em;
-    color: #fff;
-}
-
-#section-d .box:first-child {
-    background: #2690d4;
-}
 
 /*------------------------------------------- ABOUT US */
 
+.main_divider {
+    margin: 25px 25px;
+}
+
+.bg-color {
+    width: 100%;
+    height: 450px;
+    padding: 15px 12px;
+    background: #E517C9;
+    
+}
+
+.txt {
+    padding-bottom: 12px;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: right;
+    color: #333;
+}
+
+.bw-img {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    
+}
+
+#section-d {
+    padding: 0 25px 25px;
+    font-size: 15px;
+    color: #E517C9;
+}
 
 
 /*--------------------------------------------- FOOTER */
 
 footer {
     font-size: 16px;
+    
 }
 
 #main-footer {
