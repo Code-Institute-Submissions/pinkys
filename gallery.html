@@ -45,37 +45,21 @@
     </div>
   </nav>
 
-  <!-- MAIN IMAGE AREA -->
+  <!-- MAIN AREA -->
   <main id="main">
-    <div class="main_divider">
-      <div class="txt">
-        <div class="bg-color">
-          <p class="love">Food, Made With Love!</p>
-        </div>
-      </div>
-      <div class="bw_img">
-        <img src="images/beef.jpeg" alt="black and White" class="blackandwhite">
-      </div>
+    <div class="gtxt">
+      <h1>Gallery</h1>
+      <p>Some of the dishes we have made and events we have had the pleasure of servicing</p>
     </div>
 
-    <!-- SECTION D -->
-    <section id="section-d">
-      <div class="about_wrapper">
-        <h1>About Our Company</h1>
-        <p>Nothing can nourish the soul like a good home cooked meal. When it comes to cooking, my mother was my
-          biggest inspiration. In my eyes, a culinary wizard that, from very little, could make a lot! Affectionately
-          known to her family and friends as Pinky, she relished in preparing some of the most delicious and inspired
-          dishes I would ever eat! And it is with this my love for cooking (and eating) good food began. Fast forward
-          to modern day and although Pinky is no longer with us. BUT! her enthusiasm and pure love for cooking lives on
-          passionately through me, her son! Amraj.
-          My aim is simple! I want to provide the comforts of a home cooked meal at affordable prices for you! I
-          understand that there is never enough time for breaks and lunches in the busy world of work, and as a result
-          we sacrifice on choice by selecting quick and easy, grab and go options that hardly ever hit the spot!
-          THE GOOD NEWS is! You will never have to do that again! Just take a look at our menu and pre-book your
-          happiness for a time and date that suits you! Then… leave the rest to us! ;-)
-        </p>
-      </div>
-    </section>
+    <img id="myImg" src="images/food2.jpeg" alt="" style="width:100%;max-width:300px">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
   </main>
 
   <!-- FOOTER -->
@@ -116,12 +100,28 @@
     });
   </script>
 
-  <!--<div class="box">
-    <h2 class="content-title">Contact Us</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis soluta quibusdam beatae sed harum
-      fugiat consequatur, quae porro sequi at!</p>
-      <p>contact@acmewebsolutions.test</p>
-    </div>-->
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
