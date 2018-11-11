@@ -290,10 +290,11 @@ p {
 }
 
 /*------------------------------------------------ GALLERY */
+/*
 #main {
   padding-bottom: 45px;
 }
-
+*/
 .img-heading {
   margin-top: 35px;
   margin-bottom: 5px;
@@ -433,6 +434,10 @@ to style default link
 /*---------------------------------------- MEDIA QUERIES */
 
 @media (min-width: 769px) {
+  p {
+    font-size: 1.3em;
+  }
+
   #showcase h1 {
     font-family: "Srisakdi", sans-serif;
     font-size: 10em;
@@ -653,7 +658,7 @@ p {
 }
 
 .fas {
-  font-size: 5px;
+  font-size: 12px;
   color: yellow;
 }
 
@@ -693,9 +698,9 @@ p {
   .media.media-flip > * {
     margin: 0 160px 0 0;
   }
-
+  
   @supports (display: grid) {
-    /* override */
+    /* override
     .media > *,
     .media.media-flip > * {
       margin: 0;
@@ -707,12 +712,13 @@ p {
     }
     .media:after {
       content: none;
-    }
+    }*/
+    
 
     .media {
       display: grid;
       grid-column-gap: 20px;
-      grid-template-columns: 150px 3fr;
+      grid-template-columns: 1fr;
       grid-template-rows: auto 1fr auto;
       grid-template-areas:
         "img title"
@@ -721,7 +727,7 @@ p {
     }
 
     .media.media-flip {
-      grid-template-columns: 3fr 150px;
+      grid-template-columns: 1fr;
       grid-template-areas:
         "title img"
         "bd img"
