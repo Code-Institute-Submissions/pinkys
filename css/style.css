@@ -23,6 +23,10 @@ h3 {
   padding: 0.5em 0;
 }
 
+h4 {
+  color: #000;
+}
+
 p {
   margin: 0;
   padding: 1.1em 0;
@@ -188,6 +192,11 @@ p {
   color: #333;
 }
 
+.top-radius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .card-content {
   padding: 1.5em;
 }
@@ -277,7 +286,7 @@ p {
 
 .sub {
   margin-bottom: 14px;
-  margin-top: 0;
+  margin-top: 14px;
 }
 
 /*------------------------------------------------ GALLERY */
@@ -536,7 +545,7 @@ to style default link
 
 .page-header {
   padding-bottom: 9px;
-  margin: 100px 0 20px;
+  margin: 50px 0 20px;
   border-bottom: none;
 }
 
@@ -565,7 +574,7 @@ hr {
 }
 */
 
-img {
+.gallery-border {
   max-width: 100%;
   border-radius: 10px;
 }
@@ -581,7 +590,7 @@ p {
 .media {
   margin-bottom: 2em;
   border-radius: 10px;
-  border: 2px solid #666;
+  border: transparent;
   padding: 10px;
 }
 
@@ -606,6 +615,46 @@ p {
     "img"
     "bd"
     "ft";
+}
+
+.border-left {
+  padding: 0px 20px;
+  margin: 0;
+  font-size: 17.5px;
+  border-left: 2px solid #e517c9;
+}
+
+.border-right {
+  padding: 0px 20px;
+  margin: 0;
+  font-size: 17.5px;
+  border-right: 2px solid #e517c9;
+  border-left: none;
+}
+
+.quote {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.alignment {
+  text-align: left;
+}
+
+.quote-name {
+  font-size: 5px;
+  text-align: right;
+}
+
+.ratings {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fas {
+  font-size: 5px;
+  color: yellow;
 }
 
 @media (min-width: 600px) {
