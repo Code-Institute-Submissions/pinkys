@@ -662,6 +662,27 @@ p {
   color: yellow;
 }
 
+/*------------------------------------- BACK TO TOP*/
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 45%;
+  z-index: 99;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0, 0.7);
+  color:#e517c9;
+  cursor: pointer;
+  padding: 1px 14px;
+  border-radius: 10px;
+}
+
+#topBtn:hover {
+  background-color: #555;
+}
+
 @media (min-width: 600px) {
   /* clearfix*/
   .media:after {
