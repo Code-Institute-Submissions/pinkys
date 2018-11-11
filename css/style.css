@@ -664,7 +664,6 @@ p {
 
 /*------------------------------------- BACK TO TOP*/
 #topBtn {
-  display: none;
   position: fixed;
   bottom: 18px;
   right: 45%;
