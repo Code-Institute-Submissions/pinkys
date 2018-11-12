@@ -22,14 +22,15 @@
             <span class="icon-bar"></span><span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Pinky's</a>
+          <!--<a class="navbar-brand" href="index.html">Pinky's</a>-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav"></ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="assets/pinkys-menu.pdf" target="_blank">Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
@@ -43,7 +44,7 @@
     <header id="showcase" class="grid">
       <div class="bg-img">
         <div class="opaque-overlay">
-          <div class="content-wrap">
+          <div class="content-wrap" style="padding-top: 4em;">
             <h1>Pinky's</h1>
             <p><span class="border">Authentic Home Cooked Dining</span></p>
             <a href="#section-b" class="btn" data-toggle='modal' data-target='#signUpModal'>Sign Up</a>
@@ -52,7 +53,8 @@
       </div>
     </header>
 
-    <button onclick="topFunction()" id="topBtn" title="Go to top">^</button>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+    
 
     <!-- MAIN AREA -->
     <main id="main">
@@ -241,6 +243,7 @@
             </h4>
           </div>
           <div class="modal-body">
+              <p class="help-block">Every month we release special offers and four meals of the month (one for every week), sign up now to recieve news about this and an excluse offer code for discounts</p>
             <form>
               <div class="form-group">
                 <label for="email">Email address</label>
@@ -273,8 +276,8 @@
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
 
     <script>
       $(function() {
@@ -283,9 +286,9 @@
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
           if (scroll >= 190) {
-            header.fadeIn();
-          } else {
             header.fadeOut();
+          } else {
+            header.fadeIn();
           }
         });
       });
