@@ -454,7 +454,7 @@ to style default link
 
 /*---------------------------------------- MEDIA QUERIES */
 
-@media (min-width: 769px) {
+@media (min-width: 767px) {
   p {
     font-size: 1.3em;
   }
