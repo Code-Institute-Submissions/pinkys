@@ -296,7 +296,7 @@ p {
 /*-------------------------------------------  CONTACT */
 
 .contact-heading {
-  margin-top: 35px;
+  margin-top: 75px;
   margin-bottom: 5px;
   padding-top: 25px;
   padding-left: 18px;
@@ -320,7 +320,7 @@ p {
 }
 
 .sub {
-  margin-bottom: 14px;
+  margin-bottom: 28px;
   margin-top: 14px;
 }
 
@@ -486,17 +486,6 @@ to style default link
   #showcase .border {
     font-size: 35px;
   }
-  /*
-  video {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: auto;
-    height: 190%;
-    z-index: -1;
-    display: inline-block;
-    vertical-align: baseline;
-  }*/
 
   .grid {
     display: grid;
@@ -507,9 +496,9 @@ to style default link
   .menu {
     display: grid;
     grid-template-columns: 1fr;
-    width: 50%;
+    width: 100%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 64px;
     padding-bottom: 5px;
   }
 
@@ -540,8 +529,25 @@ to style default link
     padding: 0 10px;
   }
 
+  .contact-heading {
+    margin-top: 100px;
+  }
+
+  form {
+    margin-top: 45px;
+  }
+
+  /*
+  .media > * {
+    margin: 0 0 0 0px;
+  }
+  
+  .media.media-flip > * {
+    margin: 0 0px 0 0;
+  }*/
+
   #main-footer{
-    margin-top: 0;
+    margin-top: 6em;
   }
   
 
@@ -592,10 +598,6 @@ to style default link
     font-size: 18px;
   }
 
-  .container {
-    margin-top: 112px;
-  }
-
   .gallery-container {
     margin-top: 32px;
     margin-bottom: 98px;
@@ -640,11 +642,17 @@ to style default link
     padding: 80px 70px;
   }
 
-  #main-footer {
-    margin-top: 28px;
+  .contact-heading {
+    margin-top: 100px;
   }
-}
 
+  .h3 {
+    font-size: 3em;
+  }
+
+  #main-footer {
+    margin-top: 12em;
+  }
 }
 
 @media (max-width: 767px) {
@@ -807,8 +815,23 @@ p {
   color: rgba(222, 14, 222, 0.5);
 }
 
+/*------------------------------------- MODALS*/
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #666;
+}
+
+.share-your-email {
+  color: #666;
+  font-size: 10px;
+}
+
+/*
 @media (min-width: 600px) {
-  /* clearfix*/
+  /* clearfix
   .media:after {
     content: "";
     display: block;
@@ -836,11 +859,11 @@ p {
     margin: 0 0 0 10px;
   }
 
-  .media > * {
+  /*.media > * {
     margin: 0 0 0 160px;
-  }
+  }*/
 
-  .media.media-flip > * {
+  /*.media.media-flip > * {
     margin: 0 160px 0 0;
   }
   
@@ -857,7 +880,7 @@ p {
     }
     .media:after {
       content: none;
-    }*/
+    }
     
 
     .media {
@@ -887,11 +910,11 @@ p {
       grid-template-columns: 3fr minmax(150px, 1fr);
     }
 
-    /* nested */
+    /* nested 
     .media > .media {
       grid-column: 2 / -1;
-      margin: 0; /* override */
+      margin: 0; /* override 
       margin-top: 1em;
     }
   }
-}
+}*/
