@@ -20,7 +20,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  padding: 0 0;
+  padding-top: 36px;
   padding-bottom: 24px;
 }
 
@@ -114,6 +114,12 @@ p {
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
   border-color: #333;
+}
+
+/*---------------------- NAVBAR MENU PADDING RIGHT*/
+
+.container-fluid {
+  padding-right: 72px;
 }
 
 /*------------------------ HEADER SHOWCASE */
@@ -584,8 +590,8 @@ to style default link
 
   .love {
     font-size: 9vw;
-    padding: 100px 0;
-  }
+    padding: 25px 0;
+  } 
 
   .blackandwhite {
     margin-top: 70px;
@@ -608,7 +614,7 @@ to style default link
 }
 
 
-@media (min-width: 1023px) {
+@media (min-width: 1025px) {
   .container {
     margin-top: 112px;
   }
@@ -644,6 +650,10 @@ to style default link
 
   .contact-heading {
     margin-top: 100px;
+  }
+
+  .page-header {
+    margin: 10px 0 20px;
   }
 
   .h3 {
