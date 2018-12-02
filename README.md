@@ -7,13 +7,11 @@ This is a flegling business and I thought it appropriate to build him a website 
 
 ## UX
 
-The UX of the site is supposed to be a clean and easy  to navigate themed look. The idea is a user can instantly see the two main services provided and browse through further to meet their needs. 
+The UX of the site is designed to be a clean and easy to navigate themed look. The idea is a user can instantly see the two main services provided (catering and dining) and browse through further to meet their needs. 
 
-The site main target audience is people looking for a meals without the hassle ot making that meal themselves and who are ristricted on time. The selling point is "home cooked" because a gap in the market exists where fast food and takeaways are either far too processed, unhealthy or not authentic in cuisine.
+The site main target audience are people looking for meals without the hassle of making that meal themselves and who are ristricted on time. The selling point is "home cooked" because a gap in the market exists where fast food and takeaways are either far too processed, unhealthy or not authentic in cuisine.
 
-The client wants to achieve delivery of these cooked meals to the target described above, this project aims to meet these needs initially by providing the user with the choices on offer via various images and a gallery as well as a menu and then (in the future of the site build) steering them towards a quick and easy ordering process.  
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The client wants to achieve delivery of these cooked meals to the target described above, this project aims to meet these needs initially by providing the user with the choices on offer via various images as well as a menu and then (in the future of the site build) steering them towards a quick and easy ordering process.  
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -36,6 +34,11 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 3.3.7
+- some [JQuery](https://jquery.com)
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
