@@ -35,7 +35,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-- HTML5
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    - This project used **HTML5** to implement semantic web design markup
 - CSS3
 - Bootstrap 3.3.7
 - some [JQuery](https://jquery.com)
