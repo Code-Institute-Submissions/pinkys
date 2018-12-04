@@ -36,15 +36,17 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Technologies Used
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    - This project used **HTML5** to implement semantic web design markup
-- CSS3
-- Bootstrap 3.3.7
-- some [JQuery](https://jquery.com)
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+    - This project used **HTML5** to implement semantic web design markup.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+    - I have used CSS3 for styling the site and because of CSS3 features like flexbox and grid.
+- [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/css/)
+    - There has been some use of Bootstrap 3 for things like navigation menus collapse/toggle.
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - I have used minimal jQuery for image gallery displaying and navbar animation.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome has been used for social media icons. I used Font Awesome because it provides clean professional looking icons.
+- [Google Fonts](https://fonts.google.com/)
+    - Google fonts has been used to style text through out the site, I have used google fonts because it provides a vast choice of font styles aside from the default available. 
 
 
 ## Testing
