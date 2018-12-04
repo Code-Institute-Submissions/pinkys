@@ -38,15 +38,15 @@ In addition, you may also use this section to discuss plans for additional featu
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
     - This project used **HTML5** to implement semantic web design markup.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-    - I have used CSS3 for styling the site and because of CSS3 features like flexbox and grid.
+    - I have used **CSS3** for styling the site and because of CSS3 features like flexbox and grid.
 - [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/css/)
-    - There has been some use of Bootstrap 3 for things like navigation menus collapse/toggle.
+    - There has been some use of **Bootstrap 3** for things like navigation menus collapse/toggle.
 - [JQuery](https://jquery.com)
-    - I have used minimal jQuery for image gallery displaying and navbar animation.
+    - I have used minimal **jQuery** for image gallery displaying and navbar animation.
 - [Font Awesome](https://fontawesome.com/)
-    - Font Awesome has been used for social media icons. I used Font Awesome because it provides clean professional looking icons.
+    - **Font Awesome** has been used for social media icons. I used **Font Awesome** because it provides clean professional looking icons.
 - [Google Fonts](https://fonts.google.com/)
-    - Google fonts has been used to style text through out the site, I have used google fonts because it provides a vast choice of font styles aside from the default available. 
+    - **Google fonts** has been used to style text through out the site, I have used **Google Fonts** because it provides a vast choice of font styles aside from the default available. 
 
 
 ## Testing
