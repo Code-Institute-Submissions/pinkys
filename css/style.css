@@ -307,16 +307,43 @@ span {
 }
 
 
-/*------------------------------- MENU */
+/* ------------------------------- MENU
 
 .menu {
   padding-top: 50px;
   padding-bottom: 5px;
+} */
+
+/*------------------------------------------------------------------------ ABOUT US */
+
+.about-section {
+  margin: 7rem 1rem;
 }
 
-/*--------------------------- ABOUT US */
+.f-about-container {
+  display: flex;
+  flex-direction: column;
+}
 
-.main_divider {
+.f-about-item1 {
+
+}
+
+.about-img {
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+.f-about-item2 {
+
+}
+
+.about-paragraph {
+  font-family: "Koho", sans-serif;
+  margin: 0 1rem;
+}
+/* .main_divider {
   margin: 25px 25px;
 }
 
@@ -372,7 +399,7 @@ span {
   padding: 0 18px 25px;
   font-size: 15px;
   color: #fff;
-}
+} */
 
 /*----------------------------  CONTACT */
 
