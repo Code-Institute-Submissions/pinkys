@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pinky's</title>
   </head>
 
@@ -46,117 +47,122 @@
         <div class="opaque-overlay">
           <div class="content-wrap" style="padding-top: 4em;">
             <h1>Pinky's</h1>
-            <p><span class="border">Authentic Home Cooked Dining</span></p>
+            <p class="one-liner"><span class="border">Authentic Home Cooked Dining</span></p>
             <a href="#section-b" class="btn--cta btn--pink btn--anim" data-toggle='modal' data-target='#signUpModal'>Sign Up</a>
           </div>
         </div>
       </div>
     </header>
 
-    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+    <!-- <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button> -->
 
     <!-- MAIN AREA -->
     <main id="main">
+
       <!-- SECTION A -->
-      <section id="section-a" class="grid">
-        <div class="content-wrap">
-          <div class="box">
-            <div class="content-text">
-              <img class="thumb-img" src="images/catering.jpeg" alt="" />
-              <h1><span>Catering</span></h1>
-              <p class="paragraph">
-                Whether its a grand wedding, mile stone birthday celebration or
-                even if your just having a party for the hell of it, we can
-                provide a range of catering servives to suit your needs.
-              </p>
-              <a href="#" class="btn btn--pink" data-toggle='modal' data-target='#cateringModal'>Learn More</a>
-            </div>
-            <div class="content-text">
-              <img class="thumb-img" src="images/dinig.jpeg" alt="" />
-              <h1><span>Dining</span></h1>
-              <p class="paragraph">
-                We offer authentic home cooked dishes as they should be made to
-                offer you dining or a delevery service you wont forget in a
-                hurry!
-              </p>
-              <a href="#" class="btn btn--pink" data-toggle='modal' data-target='#dinigModal'>Learn More</a>
-            </div>
+      <section id="section-a">
+        <div class="f-content-container">
+          <div class="f-content-item">
+            <img class="thumb-img" src="images/catering.jpeg" alt="" />
+            <h2 class="heading"><span>Catering</span></h2>
+            <p class="content-paragraph">
+              Whether its a grand wedding, mile stone birthday celebration or
+              even if your just having a party for the hell of it, we can
+              provide a range of catering servives to suit your needs.
+            </p>
+            <a href="#" class="btn btn--pink" data-toggle='modal' data-target='#cateringModal'>Learn More</a>
+          </div>
+
+          <div class="f-content-item">
+            <img class="thumb-img" src="images/catering.jpeg" alt="" />
+            <h2 class="heading"><span>Dining</span></h2>
+            <p class="content-paragraph">
+              We offer authentic home cooked dishes as they should be made to
+              offer you dining or a delevery service you wont forget in a
+              hurry!
+            </p>
+            <a href="#" class="btn btn--pink" data-toggle='modal' data-target='#cateringModal'>Learn More</a>
+          </div>
+
+          <div class="f-content-item">
+            <h2 class="heading">Beautifully authentic catering and dining at your service</h2>
+            <p class="content-paragraph">
+              Whether its a grand wedding, mile stone birthday celebration or even
+              if your just having a party for the hell of it, we can provide a
+              range of catering services to suit your needs.
+            </p>
+            <p class="content-paragraph">Not looking for to get married? Birthday still a long way off? Order in and still 
+              enjoy authentic home cooked dishes from our <a href="assets/pinkys-menu.pdf" target="_blank">menu</a>.</p>
           </div>
         </div>
       </section>
 
       <!-- SECTION B -->
-      <section id="section-b" class="grid">
-        <ul>
-          <li>
-            <div class="card">
-              <img class="top-radius" src="images/lunch.jpeg" alt="burrito" />
-              <div class="card-content">
-                <h3 class="card-title">Pre-book Your Happiness</h3>
-                <p class="paragraph">
-                  Not a minute of lunch will be wasted! take a look at our diary
-                  & book in a special home cooked meal at a time & date that
-                  suits you.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <img class="top-radius" src="images/friends.jpeg" alt="" />
-              <div class="card-content">
-                <h3 class="card-title">Instant Happiness</h3>
-                <p class="paragraph">
-                  Order from our on the day menu & enjoy some home cooking with
-                  family or friends (but we wont tell anybody if you don’t want
-                  to share) ;)
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <img class="top-radius" src="images/marinate.jpeg" alt="" />
-              <div class="card-content">
-                <h3 class="card-title">Pre-Prepped Happiness</h3>
-                <p class="paragraph">
-                  IMPRESS YOUR GUEST! Order a hamper of premarinated & prepared
-                  food. we’ll give you instructions on how to make it just like
-                  pinky’s!
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!-- SECTION C -->
-      <section id="section-c" class="grid">
-        <div class="content-wrap">
-          <h2 class="content-title">Beautifully authentic catering and dining at your service</h2>
-          <p class="paragraph">
-            Whether its a grand wedding, mile stone birthday celebration or even
-            if your just having a party for the hell of it, we can provide a
-            range of catering services to suit your needs.
-          </p>
-          <p class="paragraph">Not looking for to get married? Birthday still a long way off? Order in and still enjoy authentic home cooked dishes from our <a href="assets/pinkys-menu.pdf" target="_blank">menu</a>.</p>
+      <section id="section-b">
+        <div class="service">
+          <div class="service__box">
+            <figure class="service__item">
+              <img src="images/lunch.jpg" alt="Party Photo" class="service__photo">
+            </figure>
+            <h3 class="card-title">Pre-book Your Happiness</h3>
+              <p class="service__paragraph">
+                Not a minute of lunch will be wasted! take a look at our diary
+                & book in a special home cooked meal at a time & date that
+                suits you.
+              </p>
+              <a class="btn-inline">Book Now <span>&rarr;</span></a>
+          </div>
+          <div class="service__box">
+            <figure class="service__item">
+              <img src="images/friends.jpeg" alt="Bar Photo" class="service__photo">
+            </figure>
+            <h3 class="card-title">Instant Happiness</h3>
+              <p class="service__paragraph">
+                Order from our on the day menu & enjoy some home cooking with
+                family or friends (but we wont tell anybody if you don’t want
+                to share) ;)
+              </p>
+              <a class="btn-inline">Order Now <span>&rarr;</span></a>
+          </div>
+          <div class="service__box">
+            <figure class="service__item">
+              <img src="images/marinate.jpeg" alt="DJ decks Photo" class="service__photo">
+            </figure>
+            <h3 class="card-title">Pre-Prepped Happiness</h3>
+              <p class="service__paragraph">
+                IMPRESS YOUR GUEST! Order a hamper of premarinated & prepared
+                food. we’ll give you instructions on how to make it just like
+                pinky’s!
+              </p>
+              <a class="btn-inline">Order Now <span>&rarr;</span></a>
+          </div>  
         </div>
       </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer id="main-footer" class="grid">
-      <div class="address">
-        <p>Pinky's Catering and Dining</p>
-        <p>Email: info@pinkyscatering.com</p>
-        <p>Tel: 020 8123 4567</p>
-      </div>
-      <div class="social">
-        <p class="paragraph">Follow us:</p>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
+    <!--FOOTER -->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="item1">
+          <ul class= "list">
+            <li class="list-item">Pinky's Catering and Dining</li>
+            <li class="list-item">Email: info@pinkyscatering.com</li>
+            <li class="list-item">Tel: 020 8123 4567</li>
+          </ul>
+        </div>
+        <div class="item2">
+          <h3 class="logo">Pinky's</h3>
+          <p class="copyright">&copy; All rights reserved</p>
+        </div>
+        <div class="item3">
+          <p class="social-paragraph">Follow us:</p>
+          <ul class= "social-list">
+            <li class="social-list-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
       </div>
     </footer>
 
@@ -278,7 +284,7 @@
       crossorigin="anonymous">
     </script>
 
-    <script>
+    <!-- <script>
       $(function() {
         //caches a jQuery object containing the header element
         var header = $(".navbar");
@@ -291,9 +297,9 @@
           }
         });
       });
-    </script>
+    </script> -->
 
-    <script>
+    <!-- <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
       
@@ -310,6 +316,6 @@
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
       }
-      </script>
+      </script> -->
   </body>
 </html>
