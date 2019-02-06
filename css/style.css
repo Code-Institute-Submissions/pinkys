@@ -311,15 +311,6 @@ span {
 }
 
 
-/* ------------------------------------------------ MENU */
-
-/*
-.menu {
-  padding-top: 50px;
-  padding-bottom: 5px;
-} */
-
-
 /*--------------------------------------------- ABOUT US */
 
 .about-section {
@@ -393,7 +384,53 @@ span {
 
 /*---------------------------------------------- GALLERY */
 
+#gallery-section {
+  margin: 8rem auto 0;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
 
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell {
+  margin: 1rem;
+}
+
+.cell img {
+  display: block;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
 
 /*----------------------------------------------- FOOTER */
 
