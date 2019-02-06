@@ -384,6 +384,11 @@ span {
 
 /*---------------------------------------------- GALLERY */
 
+/* #gallery-main {
+  background-image: linear-gradient(to bottom right, #777, #d562c6);
+
+} */
+
 #gallery-section {
   margin: 8rem auto 0;
   max-width: 1200px;
