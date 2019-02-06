@@ -31,7 +31,7 @@
           <ul class="nav navbar-nav"></ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
+            <!-- <li><a href="menu.html">Menu</a></li> -->
             <li><a href="about.html">About Us</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
@@ -40,9 +40,6 @@
         </div>
       </div>
     </nav>
-
-
-  <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
 
   <!-- MAIN AREA -->
   <main id="main">
@@ -69,59 +66,44 @@
     </div>
   </main>
 
-  <!-- FOOTER -->
-  <footer id="main-footer" class="grid">
-    <div class="address">
-      <p>Pinky's Catering and Dining</p>
-      <p>Email: info@pinkyscatering.com</p>
-      <p>Tel: 020 8123 4567</p>
-    </div>
-    <div class="social">
-      <p class="paragraph">Follow us:</p>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+  <!--FOOTER -->
+  <footer id="main-footer">
+    <div class="footer-container">
+      <div class="item1">
+        <ul class= "list">
+          <li class="list-item copyright">&copy; 2018 All rights reserved</li>
+          <li class="list-item">Pinky's Catering and Dining</li>
+          <li class="list-item">Email: info@pinkyscatering.com</li>
+          <li class="list-item">Tel: 020 8123 4567</li>
+        </ul>
+      </div>
+      <div class="item2">
+        <h3 class="logo">Pinky's</h3>
+        <!-- <p class="copyright">&copy; 2018 All rights reserved</p> -->
+      </div>
+      <div class="item3">
+        <p class="social-paragraph">Follow us:</p>
+        <ul class= "social-list">
+          <li class="social-list-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="social-list-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-list-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-list-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+      </div>
     </div>
   </footer>
 
   <!-- SCRIPTS -->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  <script>
-    $(function () {
-      //caches a jQuery object containing the header element
-      var header = $('.navbar');
-      $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 190) {
-          header.fadeOut();
-        } else {
-          header.fadeIn();
-        }
-      });
-    });
-  </script>
-
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("topBtn").style.display = "block";
-        } else {
-            document.getElementById("topBtn").style.display = "none";
-        }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+  
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous">
   </script>
 </body>
 
