@@ -610,7 +610,7 @@ figure {
 .contact__bg-img {
   /* The image used */
   background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), url("../images/cutlery.jpeg");
-  min-height: 80rem;
+  min-height: 90rem;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -649,6 +649,8 @@ figure {
   padding: 1.6rem;
   font-family: "Koho", sans-serif;
   background-color: rgba(41, 41, 41, 0.9);
+  margin-bottom: 0px;
+  border-radius: 5px;
 }
 
 label {
