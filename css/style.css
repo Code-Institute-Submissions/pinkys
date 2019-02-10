@@ -87,7 +87,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f97ae8; 
+  background: #f041d9; 
 }
 
 /* Handle on hover */
@@ -271,7 +271,13 @@ html {
 .service {
   display: flex;
   flex-direction: column;
-  
+}
+
+@media screen and (min-width: 600px) {
+  .service {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .service__box {
@@ -609,7 +615,8 @@ figure {
 
 .contact__bg-img {
   /* The image used */
-  background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), url("../images/cutlery.jpeg");
+  background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
+                    url("../images/cutlery.jpeg");
   min-height: 90rem;
 
   /* Center and scale the image nicely */
@@ -648,13 +655,13 @@ figure {
   margin: .5rem;
   padding: 1.6rem;
   font-family: "Koho", sans-serif;
-  background-color: rgba(41, 41, 41, 0.9);
+  background-color: rgba(41, 41, 41, 0.95);
   margin-bottom: 0px;
   border-radius: 5px;
 }
 
 label {
-  color: #eaeaea;
+  color: #e43fce;
 }
 
 /* Full-width input fields */
@@ -677,12 +684,17 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for the submit button */
 
+.btn-pos {
+  display: flex;
+  justify-content: right;
+}
+
 .btn--submit {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 12px 142px;
-  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 12px 25px;
   border-radius: 8px;
   position: relative;
   border: 1.5px solid #e43fce;
@@ -696,6 +708,67 @@ input[type=text]:focus, input[type=password]:focus {
   background-image: linear-gradient(to right bottom, #f97ae8, #e43fce);
   color: #fff;
 }
+
+@media screen and (min-width: 600px) {
+  .contact__bg-img {
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
+                      url("../images/restaurant.jpeg");
+  }
+
+  .contact-heading {
+    position: absolute;
+    top: 20rem;
+    left: 16rem;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    
+  }
+
+  .contact-paragraph {
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    font-size: 3rem;
+  }
+
+  .container {
+    position: absolute;
+    margin: 13rem 75rem 0;
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .contact__bg-img {
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
+                      url("../images/restaurant.jpeg");
+  }
+
+  .contact-heading {
+    position: absolute;
+    top: 20rem;
+    left: 16rem;
+    font-size: 8rem;
+  }
+
+  .contact-paragraph {
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    font-size: 3rem;
+  }
+
+  .container {
+    position: absolute;
+    /* margin: 32rem 3rem 32rem; */
+    max-width: 700px;
+  }
+}
+
 
 
 /*----------------------------------------------- FOOTER */
