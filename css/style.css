@@ -71,6 +71,8 @@ html {
   box-shadow: 0 1px 12px #555;
 }
 
+
+
 /* -------------------------------------- SCROLL BAR */
 
 /* width */
@@ -101,7 +103,7 @@ html {
 
 .navbar-default {
   margin: 0;
-  padding: 5px 0;
+  padding: 5px 10px;
   background-color: #242424f0;
   border: none;
 }
@@ -133,10 +135,10 @@ html {
   transition: 0.5s ease;
 } */
 
-/* .navbar-default .navbar-brand:hover {
-  color: #e517c9;
+.navbar-default .navbar-brand:hover {
+  color: #eaeaea;
   transition: 0.5s ease;
-} */
+}
 
 .navbar-default .navbar-nav > li > a {
   color: #eaeaea;
@@ -600,34 +602,90 @@ figure {
 
 /*-----------------------------------------  CONTACT */
 
+.contact-section {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__bg-img {
+  /* The image used */
+  background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), url("/images/cutlery.jpeg");
+  min-height: 95rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .contact-heading {
-  margin-top: 75px;
-  margin-bottom: 5px;
-  padding-top: 25px;
-  padding-left: 18px;
-  padding-right: 18px;
-  letter-spacing: 3px;
+  margin: 0;
+  padding-top: 10rem;
+  font-family: "KoHo", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #eaeaea;
 }
 
-.contact-heading > h3 {
-  color: #e517c9;
-  line-height: 30px;
-  padding-top: 10px;
+.contact-paragraph{
+  font-family: "KoHo", sans-serif;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #eaeaea;
 }
 
-.form-group {
-  font-size: 14px;
-  letter-spacing: 3px;
-  margin: 0 25px;
-  margin-bottom: 15px;
-  text-align: left;
-  color: #e517c9;
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0rem;
+  margin: .5rem;
+  max-width: 33rem;
+  padding: 1.6rem;
+  font-family: "Koho", sans-serif;
+  background-color: white;
 }
 
-.sub {
-  margin-bottom: 28px;
-  margin-top: 14px;
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1.5rem;
+  margin: .5rem 0 2.2rem 0;
+  border: none;
+  background: #f1f1f1;
 }
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-control {
+  margin-bottom: 2rem; 
+}
+
+/* Set a style for the submit button */
+
+.btn--submit {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 102px;
+  display: inline-block;
+  border-radius: 8px;
+  transition: all .2s;
+  position: relative;
+  border: 1.5px solid #e43fce;
+  background: #fff;
+  color: #e43fce;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  /* opacity: 1; */
+}
+
 
 /*----------------------------------------------- FOOTER */
 

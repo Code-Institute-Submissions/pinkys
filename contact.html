@@ -35,76 +35,72 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="contact.html">Enquiries</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-  <!-- MAIN AREA -->
-  <main id="main">
-    <div class="contact-heading">
-      <h3 class="h3">Have A Question? Need Some Advice?</h3>
-      <h3 class="h3">Get In Touch</h3>
-    </div>
-    <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Your Name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email Adress</label>
-          <input type="email" class="form-control" id="emailInput" placeholder="Your Email">
-        </div>
-        <div class="form-group">
-          <label for="textarea">Message</label>
-          <textarea class="form-control" rows="12" placeholder="Your Message"></textarea>
-        </div>
-        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><button type="button" class="btn btn-default sub">Submit</button></a> 
-      </form>
-    </div>
-  </main>
+    <main>
+      <section class="contact-section">
+        <div class="contact__bg-img">
+          <h2 class="contact-heading">Get in touch</h2>
+          <p class="contact-paragraph">Have A Question? Need Some Advice?</p>
+          <form action="/action_page.php" class="container">
+            <h1>Contact Us</h1>
 
-  <!--FOOTER -->
-  <footer id="main-footer">
-    <div class="footer-container">
-      <div class="item1">
-        <ul class= "list">
-          <li class="list-item copyright">&copy; 2018 All rights reserved</li>
-          <li class="list-item">Pinky's Catering and Dining</li>
-          <li class="list-item">Email: info@pinkyscatering.com</li>
-          <li class="list-item">Tel: 020 8123 4567</li>
-        </ul>
-      </div>
-      <div class="item2">
-        <h3 class="logo">Pinky's</h3>
-        <!-- <p class="copyright">&copy; 2018 All rights reserved</p> -->
-      </div>
-      <div class="item3">
-        <p class="social-paragraph">Follow us:</p>
-        <ul class= "social-list">
-          <li class="social-list-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-          <li class="social-list-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-          <li class="social-list-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li class="social-list-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <label for="name"><b>Name:</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+        
+            <label for="email"><b>Email:</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="textarea">Message</label>
+            <textarea class="form-control" rows="12" placeholder="Your Message" required></textarea>
+        
+            <button type="submit" class="btn--submit btn--pink btn--anim">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER -->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="item1">
+          <ul class= "list">
+            <li class="list-item copyright">&copy; 2018 All rights reserved</li>
+            <li class="list-item">Pinky's Catering and Dining</li>
+            <li class="list-item">Email: info@pinkyscatering.com</li>
+            <li class="list-item">Tel: 020 8123 4567</li>
           </ul>
+        </div>
+        <div class="item2">
+          <h3 class="logo">Pinky's</h3>
+          <!-- <p class="copyright">&copy; 2018 All rights reserved</p> -->
+        </div>
+        <div class="item3">
+          <p class="social-paragraph">Follow us:</p>
+          <ul class= "social-list">
+            <li class="social-list-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- SCRIPTS -->
-  
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous">
-  </script>
-</body>
-
+    <!-- SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous">
+    </script>
+  </body>
 </html>
