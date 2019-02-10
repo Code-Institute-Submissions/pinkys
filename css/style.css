@@ -609,7 +609,7 @@ figure {
 
 .contact__bg-img {
   /* The image used */
-  background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), url("/images/cutlery.jpeg");
+  background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), url("../images/cutlery.jpeg");
   min-height: 80rem;
 
   /* Center and scale the image nicely */
@@ -621,7 +621,7 @@ figure {
 
 .contact-heading {
   margin: 0;
-  padding-top: 10rem;
+  padding-top: 7rem;
   font-family: "KoHo", sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -635,7 +635,7 @@ figure {
 
 .contact-paragraph{
   font-family: "KoHo", sans-serif;
-  padding-top: 2rem;
+  padding: 2rem 0;
   text-transform: uppercase;
   text-align: center;
   color: #eaeaea;
