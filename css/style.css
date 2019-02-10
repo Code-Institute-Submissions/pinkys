@@ -629,7 +629,7 @@ figure {
 }
 
 .form-heading {
-  color: #333;
+  color: #eaeaea;
   text-align: center;
 }
 
@@ -648,7 +648,11 @@ figure {
   margin: .5rem;
   padding: 1.6rem;
   font-family: "Koho", sans-serif;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(41, 41, 41, 0.9);
+}
+
+label {
+  color: #eaeaea;
 }
 
 /* Full-width input fields */
