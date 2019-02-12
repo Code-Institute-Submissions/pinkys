@@ -97,76 +97,40 @@ html {
 
 /* ----------------------------------------- NAV BAR */
 
-.navbar {
-  padding: 0;
+.bg-dark {
+  background-color: #333!important;
+  padding-right: 2rem;
 }
 
-.navbar-default {
-  margin: 0;
-  padding: 5px 10px;
-  background-color: #242424f0;
-  border: none;
-}
-
-.navbar-brand {
+.navbar-light .navbar-brand {
+  color: #eaeaea;
   font-family: "Srisakdi", sans-serif;
-}
-
-.navbar-default .navbar-brand {
-  padding: 1rem;
+  font-size: 3rem;
   color: #e43fce;
-  text-shadow: 1px 1px 0.8px #777;
-  font-size: 2.5rem;
+  padding-left: 2rem;
+  transition: all .2s;
 }
 
-.navbar-nav {
-  font-family: "KoHo", sans-serif;
+.navbar-light .navbar-brand:hover {
+  color: #eaeaea;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0, .5);
+  border-color: #e43fce;
+  padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
   text-align: center;
+  font-family: "KoHo", sans-serif;
+  font-size: 2rem;
+  color: #e43fce;
+  margin-bottom: .5rem;
 }
 
-/* .navbar-brand {
-  font-family: "Srisakdi", sans-serif;
-  font-size: 32px;
-  padding: 10px 20px;
-} */
-
-/* .navbar-default .navbar-brand {
-  color: #fff;
-  transition: 0.5s ease;
-} */
-
-.navbar-default .navbar-brand:hover {
+.navbar-light .navbar-nav .active>.nav-link {
   color: #eaeaea;
-  transition: 0.5s ease;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #eaeaea;
-  font-size: 18px;
-  transition: 0.5s ease;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #e517c9;
-  transition: 0.5s ease;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-}
-
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #e517c9;
-}
-
-.navbar-default .navbar-collapse, 
-.navbar-default .navbar-form {
-  border-color: #333;
 }
 
 
@@ -208,6 +172,7 @@ html {
 .one-liner {
   font-family: "Koho", sans-serif;
   margin: 9rem 3rem 5rem;
+  font-size: 4rem;
 }
 
 .border {
@@ -613,162 +578,77 @@ figure {
   padding: 0;
 }
 
-.contact__bg-img {
-  /* The image used */
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img {
+  
   background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
                     url("../images/cutlery.jpeg");
-  min-height: 90rem;
+  min-height: 78rem;
 
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
+  position: relative;
 }
 
-.contact-heading {
+.row {
   margin: 0;
-  padding-top: 7rem;
+  padding: 0 1.5rem;
+}
+
+.col-sm-5 {
   font-family: "KoHo", sans-serif;
+  color: #eaeaea;
   text-transform: uppercase;
   text-align: center;
-  color: #eaeaea;
+  margin-top: 5rem;
 }
 
-.form-heading {
-  color: #eaeaea;
-  text-align: center;
+.col-sm-5 h1 {
+  font-size: 5rem;
+  margin: 1.5rem 0;
 }
 
-.contact-paragraph{
-  font-family: "KoHo", sans-serif;
-  padding: 2rem 0;
-  text-transform: uppercase;
-  text-align: center;
-  color: #eaeaea;
+.col-sm-5 p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
-/* Add styles to the form container */
-.container {
-  /* position: absolute;
-  right: 0; */
-  margin: .5rem;
-  padding: 1.6rem;
-  font-family: "Koho", sans-serif;
-  background-color: rgba(41, 41, 41, 0.95);
-  margin-bottom: 0px;
+.col-sm-7 {
+  background-color: #333;
   border-radius: 5px;
+  padding: 1.2rem;
+  /* margin-top: 3rem; */
+}
+
+.col-sm-7 h2{
+  color: #eaeaea;
+  font-family: "KoHo", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.form-group {
+  font-size: 1.8rem;
+  color: #e43fce;
+  margin-bottom: 2.5rem;
 }
 
 label {
-  color: #e43fce;
+  margin-bottom: .8rem;
 }
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 1.5rem;
-  margin: .5rem 0 2.2rem 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-.form-control {
-  margin-bottom: 2rem; 
-}
-
-/* Set a style for the submit button */
 
 .btn-pos {
-  display: flex;
-  justify-content: right;
+  text-align: center;
 }
-
-.btn--submit {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-bottom: 2rem;
-  padding: 12px 25px;
-  border-radius: 8px;
-  position: relative;
-  border: 1.5px solid #e43fce;
-  background: #fff;
-  color: #e43fce;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-.btn--submit:hover {
-  background-image: linear-gradient(to right bottom, #f97ae8, #e43fce);
-  color: #fff;
-}
-
-@media screen and (min-width: 600px) {
-  .contact__bg-img {
-    display: flex;
-    position: relative;
-    background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
-                      url("../images/restaurant.jpeg");
-  }
-
-  .contact-heading {
-    position: absolute;
-    top: 20rem;
-    left: 16rem;
-    font-size: 8rem;
-    margin-bottom: 2rem;
-    
-  }
-
-  .contact-paragraph {
-    position: absolute;
-    top: 35rem;
-    left: 15rem;
-    font-size: 3rem;
-  }
-
-  .container {
-    position: absolute;
-    margin: 13rem 75rem 0;
-    max-width: 700px;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  .contact__bg-img {
-    display: flex;
-    position: relative;
-    background-image: linear-gradient(to bottom right, rgba(0,0,0, .8), rgba(0,0,0, .3)), 
-                      url("../images/restaurant.jpeg");
-  }
-
-  .contact-heading {
-    position: absolute;
-    top: 20rem;
-    left: 16rem;
-    font-size: 8rem;
-  }
-
-  .contact-paragraph {
-    position: absolute;
-    top: 35rem;
-    left: 15rem;
-    font-size: 3rem;
-  }
-
-  .container {
-    position: absolute;
-    /* margin: 32rem 3rem 32rem; */
-    max-width: 700px;
-  }
-}
-
 
 
 /*----------------------------------------------- FOOTER */
