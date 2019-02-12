@@ -127,6 +127,7 @@ html {
   font-size: 2rem;
   color: #e43fce;
   margin-bottom: .5rem;
+  margin-right: 1rem;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -230,6 +231,26 @@ html {
   margin: 3rem 0 2.5rem 0;
 }
 
+@media screen and (min-width: 767px){
+
+  .bg-dark {
+    padding: 0 3rem;
+  }
+
+  .f-content-item-responsive {
+    display: flex;
+  }
+
+  .content-paragraph {
+    padding: 1rem 1.2rem;
+  }
+
+  .f-content-item:not(:first-child) {
+    padding-top: 0;
+  }
+
+}
+
 
 /*---------------------------------------- SECTION B */
 
@@ -315,18 +336,16 @@ span {
   flex-direction: column;
 }
 
-.f-about-item1 {
-
-}
-
 .about-img {
   width: 100%;
   display: block;
   border-radius: 3px;
 }
 
-.f-about-item2 {
-
+.about-heading {
+  font-family: "KoHo", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
 }
 
 .about-paragraph {
@@ -340,6 +359,61 @@ span {
 
 .about-vid {
   width: 95vw;
+}
+
+@media screen and (min-width: 767px) {
+
+  .f-about-responsive {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .about-img {
+    width: 50vw;
+  }
+
+  .about-heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  .about-paragraph {
+    font-family: "Koho", sans-serif;
+    font-size: 1.5rem;
+    margin: 0 3rem;
+  }
+
+  .extra-margin {
+    margin: 1rem 0 3rem 0;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  .f-about-responsive {
+    display: flex;
+  }
+
+  .about-img {
+    width: 50vw;
+  }
+
+  .about-heading {
+    font-size: 4.5rem;
+    font-weight: 800;
+  }
+
+  .about-paragraph {
+    font-family: "Koho", sans-serif;
+    font-size: 2rem;
+    margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .f-about-item2 {
+    align-self: center;
+  }
 }
 
 
@@ -614,7 +688,7 @@ figure {
 .col-sm-7 {
   background-color: #333;
   border-radius: 5px;
-  padding: 1.2rem;
+  padding: 2.2rem;
   margin-bottom: 6rem;
 }
 
@@ -640,6 +714,29 @@ label {
   text-align: center;
 }
 
+@media screen and (min-width: 576px) {
+
+  .col-sm-5 {
+    margin-top: 7rem;
+  }
+
+  .col-sm-7 {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .col-sm-5 h1 {
+    font-size: 8rem;
+    margin: 7.5rem 0 3rem 0;
+  }
+
+  .col-sm-5 p {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+  }
+}
 
 /*----------------------------------------------- FOOTER */
 
