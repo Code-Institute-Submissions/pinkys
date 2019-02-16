@@ -324,8 +324,10 @@ html {
   display: flex;
   justify-content: center;
   border: none;
+  font-family: "KoHo", sans-serif;
+  font-weight: 700;
   color: #FAA6FF;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   padding-bottom: 2px;
   margin-bottom: 30px;
   background: transparent;
@@ -469,8 +471,26 @@ span {
 
 /*---------------------------------------------- GALLERY */
 
+.gallery-heading {
+  font-family: "KoHo", sans-serif;
+  text-align: center;
+  margin-top: 8rem; 
+}
+
+.gallery-heading h4 {
+  font-size: 2rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .gallery-heading h4 {
+    font-size: 3.5rem;
+  }
+}
+
 #gallery-section {
-  margin: 9rem auto 3rem;
+  margin: 4rem auto 3rem;
   max-width: 1200px;
   padding: 0 1rem;
 }
@@ -532,9 +552,9 @@ span {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: #777;
+  color: #333;
   letter-spacing: 2px;
-  margin-bottom: 4rem;
+  margin: 0 2rem 4rem 2rem;
 }
 
 .f-testimonial-container {
@@ -837,7 +857,7 @@ label {
 
 .logo {
   font-family: "Srisakdi", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   /* text-shadow: 1px 1px 0.8px #777; */
   margin-top: 2rem;
   margin-bottom: 1.6rem;
@@ -968,7 +988,26 @@ label {
 
 
 /*------------------------------- MODALS*/
+  .modal-content {
+    font-family: "KoHo", sans-serif;
+    font-size: 2rem;
+  }
 
-.modal-title {
-  text-align: center;
-}
+  .modal-header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .modal-item1 {
+    margin-top: .5rem;
+  }
+
+  .close {
+    color: red;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .modal-title {
+    font-size: 3rem;
+  }
