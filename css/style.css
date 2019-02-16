@@ -100,8 +100,8 @@ html {
 /* ----------------------------------------- NAV BAR */
 
 .bg-dark {
-  background-color: #0F1020!important;
-  padding-right: 1rem;
+  background-color: #0F1020 !important;
+  padding: 1rem 2rem;
 }
 
 .navbar-light .navbar-brand {
@@ -507,6 +507,12 @@ span {
   display: block;
   border-radius: 5px;
   box-shadow: .5rem .2rem 1.4rem #333;
+  transition: all .2s
+}
+
+.cell img:hover {
+  transform: scale(1.05);
+  box-shadow: .1rem .1rem 2rem #FAA6FF;
 }
 
 @media screen and (min-width: 600px) {
@@ -518,6 +524,7 @@ span {
   .cell {
     width: 50%;
   }
+
 }
 
 @media screen and (min-width: 1000px) {

@@ -1,0 +1,12 @@
+
+/* BS Overide for navbar margins and padding */
+
+@media screen and (min-width: 767px) {
+  .bg-dark { /* 100+1=101 priority score, yay! */
+    padding: 1rem 3rem;
+  }
+
+  .navbar-nav {
+    margin-top: .3rem;
+  }
+}
