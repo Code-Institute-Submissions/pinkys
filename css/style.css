@@ -383,11 +383,25 @@ span {
   text-align: center;
 }
 
+/* Style that first letter! */
+
 .about-paragraph {
   font-size: 1.8rem;
   text-align: justify;
   font-family: "Koho", sans-serif;
   margin: 0 1rem;
+}
+
+.firstcharacter {
+  float: left;
+  font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  color: #FAA6FF;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
 
 .extra-margin {
