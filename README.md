@@ -1,30 +1,56 @@
 # PINKY's Catering and Dining
 
-This project is inspired by my brothers love for cooking. His dishes are further inspired by our late mothers skill in cooking home cooked meals. He has taken what he learnt from my mother and added his own flair to venture a business in catering and dining, aptly named after our mothers nickname... Pinky.
+This is my first milestone project and it is inspired by my brothers love for cooking. His dishes are further inspired by our late mothers skill in cooking home cooked meals. He has taken what he has learned from my mother and added his own flair to venture a business in catering and dining, aptly named after our mothers nickname... Pinky.
 
-This is a flegling business and I thought it appropriate to build him a website to be able to promote his services in the digial era we live in. The dishes shown here are from stock images representing the meals he makes.
+This is a flegling business and I thought it appropriate to build him a website to be able to promote his services. The dishes shown here are from stock images representing the meals he makes and the data in the site is semi fictional, this includes images, testimonals and restaurant menu.
 
+As mentioned the business is extremely small at the moment but I have decided to put in place a site that can be populated with his own material and data when he is ready for a full live domain.
 
 ## UX
 
-The UX of the site is designed to be a clean and easy to navigate themed look. The idea is a user can instantly see the two main services provided (catering and dining) and browse through further to meet their needs. 
+The UX of the site is designed to be a clean and easy to navigate themed look. The site is static in line with what has been taught so far in this part of the course, HTML5 and CSS3. The idea is a user can instantly see the two main services provided (catering and dining) and browse through further to meet their needs. 
 
-The site main target audience are people looking for meals without the hassle of making that meal themselves and who are ristricted on time. The selling point is "home cooked" because a gap in the market exists where fast food and takeaways are either far too processed, unhealthy or not authentic in cuisine.
+The UI colours we have chosen are pink, dark and light purples and whites and slightly off whites, I feel this pallette of colours completment each other and we wanted to have some sort of tone of pink in the site to reflect the brand name.
 
-The client wants to achieve delivery of these cooked meals to the target described above, this project aims to meet these needs initially by providing the user with the choices on offer via various images as well as a menu and then (in the future of the site build) steering them towards a quick and easy ordering process.  
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The site is made easy to navigate with the hamburger menu in mobile view clearly showing the available links and the menu bar clearly visible in desktop version too. (min-width: 600px).
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Home page:
+=========
+
+Down the page the user is made aware of the CTA button to sign up to Pinky's restaurant deals and newsletters following on are two Learn More buttons for each sub category service on offer.
+
+Abous Us:
+========
+
+This page describes a breif history of how this business and company came to be with a sample pictur of cooked food and a sample video to show the process.
+
+Gallery:
+=======
+
+The gallery page shows sample images of t dishes that have been made at events that would be similar to that of what Pinky's would offer. This page features a hover over where the image scales up slightly and has a pink glow background.
+
+Testimonials:
+============
+
+This page shows real testimonies from people that my brother has sold his cooking to, with the exception of the pictures, these are stock photos added in to show case the skills I have learned and wanted to demonstrate in this section.
+
+Contact Us:
+==========
+
+Contact us page is a simple Bootstrap 4 form that has been places over a hero image and styled to meet the theme look.
+
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+
+* CTA buttons on home page allows users to easily sign up to discount offers, news letters and deals. as well as submit custom information and dates for catering services if there were a back end set up to recieve this.
+
+* Order and Book now buttons which currently link to nothing but would go through to a order menu type form on which customers could place orders or book time slots for food delivaries.
+
+* Social media icon buttons in footer designed to be visible and to guide users to social media site and increase traffic and following.
+
+* Video 
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -39,10 +65,10 @@ In addition, you may also use this section to discuss plans for additional featu
     - This project used **HTML5** to implement semantic web design markup.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
     - I have used **CSS3** for styling the site and because of CSS3 features like flexbox and grid.
-- [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/css/)
-    - There has been some use of **Bootstrap 3** for things like navigation menus collapse/toggle.
+- [Bootstrap 4](https://getbootstrap.com/docs/3.3/css/)
+    - There has been some use of **Bootstrap 4** for things like navigation menus collapse/toggle.
 - [JQuery](https://jquery.com)
-    - I have used minimal **jQuery** for image gallery displaying and navbar animation.
+    - I have used minimal **jQuery** for bootstrap 4 navbar animation.
 - [Font Awesome](https://fontawesome.com/)
     - **Font Awesome** has been used for social media icons. I used **Font Awesome** because it provides clean professional looking icons.
 - [Google Fonts](https://fonts.google.com/)
