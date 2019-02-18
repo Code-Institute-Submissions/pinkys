@@ -17,27 +17,27 @@ The site is made easy to navigate with the hamburger menu in mobile view clearly
 ## Features
 
 Home page:
-=========
+----------
 
 Down the page the user is made aware of the CTA button to sign up to Pinky's restaurant deals and newsletters following on are two Learn More buttons for each sub category service on offer.
 
 Abous Us:
-========
+---------
 
 This page describes a breif history of how this business and company came to be with a sample pictur of cooked food and a sample video to show the process.
 
 Gallery:
-=======
+--------
 
 The gallery page shows sample images of t dishes that have been made at events that would be similar to that of what Pinky's would offer. This page features a hover over where the image scales up slightly and has a pink glow background.
 
 Testimonials:
-============
+-------------
 
 This page shows real testimonies from people that my brother has sold his cooking to, with the exception of the pictures, these are stock photos added in to show case the skills I have learned and wanted to demonstrate in this section.
 
 Contact Us:
-==========
+-----------
 
 Contact us page is a simple Bootstrap 4 form that has been places over a hero image and styled to meet the theme look.
 
@@ -50,14 +50,21 @@ Contact us page is a simple Bootstrap 4 form that has been places over a hero im
 
 * Social media icon buttons in footer designed to be visible and to guide users to social media site and increase traffic and following.
 
-* Video 
+* Embedded video on about page showing example process of cooking work.
+
+* Simple Bootstrap 4 contact form embedded over a hero image.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+
+- Booking system allowing for a user to go through to a UI that lets them place and book orders for delivery, this would be accessed via the links on the home page called "Order now" and "Book Now", which currently link to nothing. It is simply because of time restrictions I have no coded this kind of UI as my main focus was to build the main site and its functionality. 
+
+- Sign Up button impletmentation to allow users that sign up to Pinky's to actually recieve Discounts, news about the company and other offers.
+
+- Contact us page with some sort of maps API to allow users to know where Pinky's is based.
 
 ## Technologies Used
 
