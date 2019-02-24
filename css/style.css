@@ -344,33 +344,7 @@ span {
 }
 
 
-@media only screen and (min-device-width : 650px) and (max-device-width : 767px) {
-  .service {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card-title {
-    font-size: 3vh;
-  }
-
-  .service__paragraph {
-    height: 12rem; 
-    text-overflow: ellipsis;
-    text-align: center;
-    font-family: "KoHo", sans-serif;
-    color: #333;
-    font-size: 3.2vh;
-    padding: 15px 30px 5px;
-  }
-
-  .btn-inline {
-    font-size: 4vh;
-  }
-}
-
-
-@media only screen and (min-device-width : 900px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) {
   
   .service {
     display: flex;
@@ -382,12 +356,12 @@ span {
   }
 
   .service__paragraph {
-    height: 18rem; 
+    height: 13rem; 
     text-overflow: ellipsis;
     text-align: center;
     font-family: "KoHo", sans-serif;
     color: #333;
-    font-size: 1.6vh;
+    font-size: 1.5vh;
     padding: 15px 30px 5px;
   }
 
@@ -396,7 +370,7 @@ span {
   }
 }
 
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1300px) {
+@media only screen and (min-width : 1024px) {
   
   .service {
     display: flex;
@@ -408,45 +382,20 @@ span {
   }
 
   .service__paragraph {
-    height: 12rem; 
+    height: 10rem; 
     text-overflow: ellipsis;
     text-align: center;
     font-family: "KoHo", sans-serif;
     color: #333;
-    font-size: 2vh;
+    font-size: 2.2vh;
     padding: 15px 30px 5px;
   }
 
   .btn-inline {
-    font-size: 2.5vh;
+    font-size: 2.8vh;
   }
 }
 
-@media only screen and (min-device-width : 1301px) and (max-device-width : 1919px) {
-  
-  .service {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card-title {
-    font-size: 2.5vh;
-  }
-
-  .service__paragraph {
-    height: 9rem; 
-    text-overflow: ellipsis;
-    text-align: center;
-    font-family: "KoHo", sans-serif;
-    color: #333;
-    font-size: 1.8vh;
-    padding: 15px 30px 5px;
-  }
-
-  .btn-inline {
-    font-size: 2vh;
-  }
-}
 
 @media only screen and (min-device-width : 1920px) {
   
