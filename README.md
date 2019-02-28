@@ -16,30 +16,25 @@ The site is made easy to navigate with the hamburger menu in mobile view clearly
 
 ## Features
 
-Home page:
-----------
+### Home page:
 
 Down the page the user is made aware of the CTA button to sign up to Pinky's restaurant deals and newsletters following on are two Learn More buttons for each sub category service on offer.
 
-Abous Us:
----------
+### Abous Us:
 
 This page describes a breif history of how this business and company came to be with a sample pictur of cooked food and a sample video to show the process.
 
-Gallery:
---------
+### Gallery:
 
 The gallery page shows sample images of t dishes that have been made at events that would be similar to that of what Pinky's would offer. This page features a hover over where the image scales up slightly and has a pink glow background.
 
-Testimonials:
--------------
+### Testimonials:
 
 This page shows real testimonies from people that my brother has sold his cooking to, with the exception of the pictures, these are stock photos added in to show case the skills I have learned and wanted to demonstrate in this section.
 
-Contact Us:
------------
+### Contact Us:
 
-Contact us page is a simple Bootstrap 4 form that has been places over a hero image and styled to meet the theme look.
+Contact us page is a simple Bootstrap 4 form that has been places over a hero image and styled to meet the theme look and feel.
 
  
 ### Existing Features
@@ -64,7 +59,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Sign Up button impletmentation to allow users that sign up to Pinky's to actually recieve Discounts, news about the company and other offers.
 
-- Contact us page with some sort of maps API to allow users to know where Pinky's is based.
+- Contact us page with smaps API to allow users to know where Pinky's is located and the local area of distrubtion.
 
 ## Technologies Used
 
@@ -117,11 +112,50 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The content of this site was written by the prospective client, (my brother) and provided to me in a word document.
+- I have also added content that I created myself like the Pink's Logo.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in the gallery section of this site were obtained from pexels.com
+
+https://www.pexels.com/photo/cooked-meat-on-brown-chopping-board-1268549/
+
+https://www.pexels.com/photo/dinnerware-on-table-top-1395964/
+
+https://www.pexels.com/photo/close-up-of-meal-served-in-plate-306059
+
+https://www.pexels.com/photo/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545/
+
+https://www.pexels.com/photo/platter-of-foods-941869/
+
+https://www.pexels.com/photo/flat-lay-photography-of-grilled-meat-on-brown-chopping-board-1268551/
+
+https://www.pexels.com/photo/selective-focus-photography-of-beef-steak-with-sauce-675951/
+
+https://www.pexels.com/photo/blur-breakfast-close-up-dairy-product-376464/
+
+https://www.pexels.com/photo/silver-spoon-and-forks-beside-vegetables-1345190/
+
+https://www.pexels.com/photo/blur-breakfast-chef-cooking-262978/
+
+https://www.pexels.com/photo/close-up-of-drink-in-glass-316909/
+
+https://www.pexels.com/photo/alcohol-banquet-beverage-bread-306046/
+
+https://www.pexels.com/photo/photo-of-a-toast-1268558/
+
+https://www.pexels.com/photo/burrito-chicken-delicious-dinner-461198/
+
+https://www.pexels.com/photo/brown-and-white-meat-dish-144432/
+
+- The video in the About Us page of this website was obtained from Pexels.com:
+
+https://videos.pexels.com/videos/cooking-meat-857779
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from:
+
+- [Top Hat Catering] (https://www.tophatcatering.co.uk/)
+- [Traversy Media] (https://www.youtube.com/watch?v=M3qBpPw77qo)
+
