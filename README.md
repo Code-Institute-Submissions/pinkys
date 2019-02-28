@@ -156,6 +156,6 @@ https://videos.pexels.com/videos/cooking-meat-857779
 
 - I received inspiration for this project from:
 
-- [Top Hat Catering] (https://www.tophatcatering.co.uk/)
-- [Traversy Media] (https://www.youtube.com/watch?v=M3qBpPw77qo)
+- [Top Hat Catering](https://www.tophatcatering.co.uk/)
+- [Traversy Media](https://www.youtube.com/watch?v=M3qBpPw77qo)
 
