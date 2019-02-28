@@ -758,9 +758,9 @@ figure {
   }
 
   .testimonial-item__shape {
-    width: 9rem;
-    height: 9rem;
-    margin-right: 40px;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 30px;
     transform: translateX(0) skewX(0);
   }
 
@@ -773,7 +773,7 @@ figure {
   .heading-tertiary {
     font-size: 1.4rem;
     font-weight: 800;
-    margin-bottom: 35px;
+    margin-bottom: 42px;
     text-transform: uppercase;
   }
 
