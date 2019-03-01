@@ -59,7 +59,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Sign Up button impletmentation to allow users that sign up to Pinky's to actually recieve Discounts, news about the company and other offers.
 
-- Contact us page with smaps API to allow users to know where Pinky's is located and the local area of distrubtion.
+- Coming off the back of the above feature, subscription form could be implemented to the site to gather information about subscribers and tailor updates to them.
+
+- Contact us page with maps API to allow users to know where Pinky's is located and the local area of distrubtion.
+
+- Anti spam form validation like google reCaptcha API to help prevent bot attacks and junk mail. 
 
 ## Technologies Used
 
@@ -79,23 +83,35 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The main testing of this site was done to test resposiveness of the overall site for every page in Mobile and Tablet, portrait, landscape and Desktop views via local host.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- Tested on **Google Chrome** Dev tools on all screen resolutions available in dev tools in both portrait and landscape modes.
+- Tested on **Mozilla FireFox** Dev tools on all screen resolutions available in dev tools in both portrait and landscape modes.
+- Tested on Apple **Safari** browser Dev tools on all screen resolutions available in dev tools in both portrait and landscape modes.
+- Tested on **Operah** browswer Dev tools on all screen resolutions available in dev tools in both portrait and landscape modes.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Tested site on all above browsers in Desktoop view.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+### Non Local Host Testing
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Tested entire site on [Responsinator](http://www.responsinator.com/?url=n4vdeep.github.io%2Fpinkys%2F) as backup to ensure responsiveness.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Additional Tests
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Tested site functionality of all button elements and button and link hovers on all devices. 
+- Modals tested on all devices.
+- Form Validation Tested for empty input and text areas on submission.
+
+### Addtional Information About Responsive Design
+
+This website has some UI differences on different screen resolutions:
+
+- The home page looks different on mobile than it does on mobile the services section with a booking option is split into flexbox columns instead of rows as it is on the Desktop version.
+
+- The same applies for the About Us and Gallery pages where a column solution is implemented over a row for mobile vs desktop.
+
+- The testimonial page is primarily the same for responsiveness with the skew on desktop removed for mobile.
+
 
 ## Deployment
 
