@@ -102,6 +102,16 @@ The main testing of this site was done to test resposiveness of the overall site
 - Modals tested on all devices.
 - Form Validation Tested for empty input and text areas on submission.
 
+### Real Devices Tested On
+
+This site has been run on: 
+
+- **Apple Iphone 8**
+- **Apple Iphone 8 plus**
+- **Apple Ipad**
+- **Samsung Galaxy S5 and S8**
+- **Apple Macbook Pro 2018**
+
 ### Addtional Information About Responsive Design
 
 This website has some UI differences on different screen resolutions:
@@ -176,3 +186,6 @@ I received inspiration for this project from:
 - [Top Hat Catering](https://www.tophatcatering.co.uk/)
 - [Traversy Media](https://www.youtube.com/watch?v=M3qBpPw77qo)
 
+## Author
+
+Navdeep Dhamu - Milestone Project 1
