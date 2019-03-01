@@ -132,7 +132,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - I have also added content that I created myself like the Pink's Logo.
 
 ### Media
-- The photos used in the gallery section of this site were obtained from pexels.com
+
+The photos used in the gallery section of this site were obtained from pexels.com
 
 https://www.pexels.com/photo/cooked-meat-on-brown-chopping-board-1268549/
 
@@ -164,13 +165,13 @@ https://www.pexels.com/photo/burrito-chicken-delicious-dinner-461198/
 
 https://www.pexels.com/photo/brown-and-white-meat-dish-144432/
 
-- The video in the About Us page of this website was obtained from Pexels.com:
+The video in the About Us page of this website was obtained from Pexels.com:
 
 https://videos.pexels.com/videos/cooking-meat-857779
 
 ### Acknowledgements
 
-- I received inspiration for this project from:
+I received inspiration for this project from:
 
 - [Top Hat Catering](https://www.tophatcatering.co.uk/)
 - [Traversy Media](https://www.youtube.com/watch?v=M3qBpPw77qo)
