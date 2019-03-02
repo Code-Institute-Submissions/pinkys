@@ -6,6 +6,10 @@ This is a flegling business and I thought it appropriate to build him a website 
 
 As mentioned the business is extremely small at the moment but I have decided to put in place a site that can be populated with his own material and data when he is ready for a full live domain.
 
+Please find a live demo of Pinkys website below:
+
+#[PINKYS LIVE DEMO]#(https://n4vdeep.github.io/pinkys/)
+
 ## UX
 
 The UX of the site is designed to be a clean and easy to navigate themed look. The site is static in line with what has been taught so far in this part of the course, HTML5 and CSS3. The idea is a user can instantly see the two main services provided (catering and dining) and browse through further to meet their needs. 
