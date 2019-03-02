@@ -8,7 +8,8 @@ As mentioned the business is extremely small at the moment but I have decided to
 
 Please find a live demo of Pinkys website below:
 
-[PINKYS LIVE DEMO](#https://n4vdeep.github.io/pinkys/#)
+[#PINKYS LIVE DEMO](https://n4vdeep.github.io/pinkys/)
+
 
 ## UX
 
