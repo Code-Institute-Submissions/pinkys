@@ -136,7 +136,7 @@ For milestone 1 project I used Github pages to deply my website. To do this I fo
 
 I live demo of my website can be found here:
 
-- [PINKYS LIVE DEMO](https://n4vdeep.github.io/pinkys/)
+## [PINKYS LIVE DEMO](https://n4vdeep.github.io/pinkys/)
 
 I chose to go with Github pages for this project because it was a free and extreamly easy way to host the site which also allowed me to see it on various devices in real life.
 
