@@ -494,6 +494,8 @@ span {
 
   .about-img {
     width: 50vw;
+    margin-top: 3rem;
+    margin-left: 1rem;
   }
 
   .about-heading {
