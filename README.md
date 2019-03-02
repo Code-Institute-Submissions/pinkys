@@ -102,9 +102,9 @@ The main testing of this site was done to test resposiveness of the overall site
 - Modals tested on all devices.
 - Form Validation Tested for empty input and text areas on submission.
 
-### Real Devices Tested On
+### Real Device Testing
 
-This site has been run on: 
+This site has been run on the following devices on all the main browsers in use today: 
 
 - **Apple Iphone 8**
 - **Apple Iphone 8 plus**
@@ -112,7 +112,7 @@ This site has been run on:
 - **Samsung Galaxy S5 and S8**
 - **Apple Macbook Pro 2018**
 
-### Addtional Information About Responsive Design
+### Addtional Information About Responsive Design Testing
 
 This website has some UI differences on different screen resolutions:
 
@@ -125,14 +125,17 @@ This website has some UI differences on different screen resolutions:
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+For milestone 1 project I used Github pages to deply my website. To do this I followed the following guide that can be found on Github:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- [Github Pages Guide](https://guides.github.com/features/pages/)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I live demo of my website can be found here:
+
+- #[PINKYS LIVE DEMO](https://n4vdeep.github.io/pinkys/)#
+
+I chose to go with Github pages for this project because it was a free and extreamly easy way to host the site which also allowed me to see it on various devices in real life.
+
+This site does not require any config files or environment variables to run, all scripts are inclued in the site and reference online CDN's. My Project is also supported on all browsers listed above.
 
 
 ## Credits
@@ -188,4 +191,4 @@ I received inspiration for this project from:
 
 ## Author
 
-Navdeep Dhamu - Milestone Project 1
+**Navdeep Dhamu** - Milestone Project 1
